@@ -8,5 +8,5 @@ for i in range(2,11):
     if bilangan < bilangan_terkecil:
         bilangan_terkecil = bilangan
 
-print("-" * 15)
+print("-" * 30)
 print(f"Bilangan terkecil adalah: {bilangan_terkecil}")
