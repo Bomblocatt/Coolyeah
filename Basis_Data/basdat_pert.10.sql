@@ -24,9 +24,8 @@ INSERT INTO obat (nama_obat, kategori, harga_satuan, stok, keterangan) VALUES
 ('Ibuprofen 400mg', 'Analgesik', 12000.00, 80, 'Pereda nyeri'),
 ('Antasida Doen', 'Pencernaan', 8000.00, 5, 'Obat maag kunyah');
 
--- =========================================================
+
 -- JAWABAN TANTANGAN LAB: INVENTARIS KLINIK
--- =========================================================
 
 -- Soal 1: Filter & Urutan (Stok < 50 dari terkecil)
 SELECT nama_obat, stok, harga_satuan, keterangan
